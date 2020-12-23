@@ -32,7 +32,7 @@ public class ChangeCalculator {
 
 
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
-	JOptionPane.showMessageDialog(null, "  ");
+	JOptionPane.showMessageDialog(null, "Totals amount: " + totalcentsInt/100);
 
 	}
 }
