@@ -36,12 +36,26 @@ public class SleepyHead {
 		// Write code to ask the user what percentage they scored in their last exam
 String percentage = JOptionPane.showInputDialog("what percent did you get in your last exam?");
 		//int grade = Integer.parseInt(percentage);
-int grade = integer
+int grade = Integer.parseInt(percentage);
 		// If they scored more than 70, they passed the exam.
 		// Set the boolean passedExam based on their score.
 		if(percentage.equalsIgnoreCase("100")){
+			JOptionPane.showMessageDialog(null, "you passed the exam, congratuation");
+		}
+		if(percentage.equalsIgnoreCase("90")){
+			JOptionPane.showMessageDialog(null, "you passed the exam, congratuation");
+		}
+		if(percentage.equalsIgnoreCase("80")){
+			JOptionPane.showMessageDialog(null, "you passed the exam, congratuation");
+		}
+		if(percentage.equalsIgnoreCase("70")){
+			JOptionPane.showMessageDialog(null, "you passed the exam, congratuation");
+		}
+		else {JOptionPane.showMessageDialog(null, "Better luck next time");
 			
 		}
+		
+		
 		// If the user passed the exam, congratulate them
 		
 		// otherwise, wish them better luck next time.
@@ -53,9 +67,12 @@ int grade = integer
 		// This code will repeat until gameIsOver is changed to true
 		while (!gameIsOver) {
 			// Ask the user if the game is over. 
-			String gameOver = JOptionPane.showInputDialog("is game over");
-			if (gameOver.equalsIgnoreCase("yes"))
-				gameIsOver = true;
+			String gameOver = JOptionPane.showInputDialog("is it game over");
+			if (gameOver.equalsIgnoreCase("yes")){
+				gameIsOver = true;}
+			else {
+				JOptionPane.showMessageDialog(null, "game is over");
+			}
 			
 			// If they answer "yes", change gameIsOver to true
 
@@ -67,7 +84,7 @@ int grade = integer
 		
 		boolean isRed;
 		// Ask the user what color to draw with. Based on their answer, set the isRed variable
-		
+		String color = JOptionPane.showInputDialog("")
 		
 		boolean isSquare;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
