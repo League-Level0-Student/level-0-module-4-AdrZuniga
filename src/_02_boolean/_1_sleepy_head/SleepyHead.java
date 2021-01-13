@@ -84,11 +84,13 @@ int grade = Integer.parseInt(percentage);
 		
 		boolean isRed;
 		// Ask the user what color to draw with. Based on their answer, set the isRed variable
-		String color = JOptionPane.showInputDialog("")
+		String color = JOptionPane.showInputDialog("What color do you want to draw with?");
+		int colorRed = Integer.parseInt(color);
 		
 		boolean isSquare;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
-		
+		String shape = JOptionPane.showInputDialog("What shape do you want?");
+		int shapeSquare = Integer.parseInt(shape)
 		
 		// Now you MUST use the && operator to join the booleans for this code. 
 		// Ask your teacher if you are not sure how
