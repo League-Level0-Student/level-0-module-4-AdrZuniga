@@ -97,9 +97,8 @@ int grade = Integer.parseInt(percentage);
 		// Use an if statement to ONLY draw a red square when it has been requested (use the method below)
 		// otherwise, tell the user you don't know how to draw that shape
 		if (color.equalsIgnoreCase("red"));{
-			Robot rob = 
+			Robot.setPenColor(Red);
 		}
-
 	}
 
 	
@@ -107,4 +106,6 @@ int grade = Integer.parseInt(percentage);
 		Robot rob = new Robot();
 		// Complete the rest of this method
 	}	
+	
+	
 }
