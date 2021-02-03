@@ -1,5 +1,7 @@
 package _02_boolean._1_sleepy_head;
 
+import java.awt.Color;
+
 import javax.swing.JOptionPane;
 import org.jointheleague.graphical.robot.Robot;
 
@@ -10,6 +12,7 @@ public class SleepyHead {
 		// boolean variables can only hold one of two values - true or false
 
 		/************************  SLEEPY HEAD  **************************/
+		Robot rob = new Robot();
 		boolean isWeekend;
 		// Write code to ask the user what day it is.
         String day = JOptionPane.showInputDialog("What day is it?");
@@ -81,7 +84,7 @@ int grade = Integer.parseInt(percentage);
 		
 		
 		/***********************   RED SQUARE  ********************/
-		
+		rob.setPenWidth(20);
 		boolean isRed;
 		// Ask the user what color to draw with. Based on their answer, set the isRed variable
 		String color = JOptionPane.showInputDialog("What color do you want to draw with?");
@@ -97,13 +100,28 @@ int grade = Integer.parseInt(percentage);
 		// Use an if statement to ONLY draw a red square when it has been requested (use the method below)
 		// otherwise, tell the user you don't know how to draw that shape
 		if (color.equalsIgnoreCase("red"));{
-			Robot.setPenColor(Red);
+			rob.setPenColor(Color.red);
+		}
+		if (color.equalsIgnoreCase("blue"));{
+			rob.setPenColor(Color.blue);
+		}
+		if (color.equalsIgnoreCase("yellow"));{
+			rob.setPenColor(Color.yellow);
+		}
+		if (color.equalsIgnoreCase("black"));{
+			rob.setPenColor(Color.black);
+		}
+		if (color.equalsIgnoreCase("pink"));{
+			rob.setPenColor(Color.pink);
+		}
+		if (color.equalsIgnoreCase("green"));{
+			rob.setPenColor(Colorgreen);
 		}
 	}
 
 	
 	static void drawRedSquare() {
-		Robot rob = new Robot();
+		
 		// Complete the rest of this method
 	}	
 	
