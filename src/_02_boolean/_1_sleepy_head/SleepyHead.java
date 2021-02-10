@@ -99,24 +99,28 @@ int grade = Integer.parseInt(percentage);
 		// Ask your teacher if you are not sure how
 		// Use an if statement to ONLY draw a red square when it has been requested (use the method below)
 		// otherwise, tell the user you don't know how to draw that shape
-		if (color.equalsIgnoreCase("red"));{
+		if (color.equalsIgnoreCase("red")){
 			rob.setPenColor(Color.red);
 		}
-		if (color.equalsIgnoreCase("blue"));{
+		if (color.equalsIgnoreCase("blue")){
 			rob.setPenColor(Color.blue);
 		}
-		if (color.equalsIgnoreCase("yellow"));{
+		if (color.equalsIgnoreCase("yellow")){
 			rob.setPenColor(Color.yellow);
 		}
-		if (color.equalsIgnoreCase("black"));{
+		if (color.equalsIgnoreCase("black")){
 			rob.setPenColor(Color.black);
 		}
-		if (color.equalsIgnoreCase("pink"));{
+		if (color.equalsIgnoreCase("pink")){
 			rob.setPenColor(Color.pink);
 		}
-		if (color.equalsIgnoreCase("green"));{
-			rob.setPenColor(Colorgreen);
+		if (color.equalsIgnoreCase("green")){
+			rob.setPenColor(Color.green);
 		}
+		else {
+			rob.setRandomPenColor();
+		}
+		
 	}
 
 	
