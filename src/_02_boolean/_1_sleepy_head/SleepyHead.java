@@ -116,13 +116,22 @@ int grade = Integer.parseInt(percentage);
 		}
 		if (color.equalsIgnoreCase("green")){
 			rob.setPenColor(Color.green);
+		if (color.equalsIgnoreCase("orange")) {
+			rob.setPenColor(Color.orange);
+		}
 		}
 		else {
 			rob.setRandomPenColor();
 		}
+		rob.move(20); 
+		rob.turn(90);
+		rob.move(20);
+		rob.turn(90);
+		
 		
 	}
-
+	
+	
 	
 	static void drawRedSquare() {
 		
