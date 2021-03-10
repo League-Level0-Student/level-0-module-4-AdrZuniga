@@ -8,9 +8,12 @@ void setup() {
 
 void draw() {
 background(face);
-  ellipse(199,268, 175,120);
-  ellipse(82,80, 90,90);
-  ellipse(mouseX,mouseY, 15,15);
-  ellipse(mouseX,mouseY, 15,15);
+  ellipse(210,278, 341,184);
+  ellipse(582,278, 341,184);
+  ellipse(mouseX,mouseY, 30,30);
+ color(#080606);
+  ellipse(mouseX,mouseY, 30,30);
+  color(#080606);
+  
   
 }
