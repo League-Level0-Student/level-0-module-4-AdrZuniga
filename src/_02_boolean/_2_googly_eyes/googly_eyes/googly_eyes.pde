@@ -13,7 +13,9 @@ background(face);
   fill(#080606);
   
   ellipse(mouseX ,mouseY, 30,30);
-  ellipse(176 ,mouseY, 30,30);
+  ellipse(176 ,mouseY, 30, 30);
   fill(#FFFFFF);
+  
+  
   
 }
