@@ -7,15 +7,16 @@ void setup() {
 }
 int x = 435;
 int y = 282;
-//
+// x = 431 y = 199
+// x = 734 y = 357
 void draw() {
 background(face);
   ellipse(210,278, 344,190);
   ellipse(582,278, 341,194);
   fill(#080606);
   
-  ellipse(mouseX ,mouseY, 45,45);
-  ellipse(176 ,mouseY, 45, 45);
+  ellipse(288 ,mouseY, 45,45);
+  ellipse(mouseX ,mouseY, 45, 45);
   fill(#FFFFFF);
   
   
