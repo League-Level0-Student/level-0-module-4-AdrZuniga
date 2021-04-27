@@ -16,10 +16,13 @@ background(face);
   ellipse(582,278, 341,194);
   fill(#080606);
   
-  ellipse(x ,Y, 45,45);
-  ellipse(x ,Y, 45, 45);
+  ellipse(x ,y, 45,45);
+  ellipse(x-305 ,y, 45, 45);
   fill(#FFFFFF);
-  if(mouseX > 431 & mouseX < 734)
+  if(mouseX > 431 && mouseX < 734 && mouseY > 199 && mouseY < 357){
+   x = mouseX; 
+   y = mouseY;
+  }
   
  if(mousePressed){
    println("mouseX "+ mouseX + " mouseY " + mouseY);
