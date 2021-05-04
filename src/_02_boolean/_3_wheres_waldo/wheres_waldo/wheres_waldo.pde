@@ -9,7 +9,7 @@ boolean canPlaySounds = true;
 void setup() {
   
   //Find a Where's Waldo picture and drop it into this sketch.     
-  PImage waldo = loadImage("waldo.jpg"); // Change this to match your file name.
+  PImage waldo = loadImage("Waldo.jpg"); // Change this to match your file name.
   size(600, 400); 
   // Resize your waldo picture to the same size as the sketch
   
