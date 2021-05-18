@@ -4,6 +4,7 @@
 	 * If you cannot play sound on this computer, set canPlaySounds to false.
 	 * If you are not sure, ask your teacher 
 	 * *****************/
+
 boolean canPlaySounds = true;
 
 void setup() {
@@ -23,17 +24,19 @@ void draw() {
   
           // Use this print statement to help you find the location of Waldo to use in the code below
           // println("X: " + mouseX + " Y: " + mouseY); 
+          
     
           // Check if the location of the mouse is anywhere on the image of Waldo.
           // If it is, print “Waldo found!”  Use the text() command to write it on the sketch.
-          
+          if(mousePressed){
+   println("mouseX "+ mouseX + " mouseY " + mouseY);}
                 if (canPlaySounds) {
                     // Use the playWhoohoo() method below. You can change the sound if you want 
                 } 
     
           // However, if the mouse is not on Waldo, print "Not here!" 
           // Use the text() command to write it on the sketch. 
-          
+         //if(mouseX > 339 && mouseX < 353 && mouseY > 146
                 if (canPlaySounds) {
                     // Use the playDoh() method below. You can change the sound if you want 
                 }       
