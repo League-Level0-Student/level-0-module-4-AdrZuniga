@@ -33,14 +33,16 @@ void draw() {
                 if (canPlaySounds) {
                     // Use the playWhoohoo() method below. You can change the sound if you want 
                 } 
-    
+   
           // However, if the mouse is not on Waldo, print "Not here!" 
           // Use the text() command to write it on the sketch. 
-         //if(mouseX > 339 && mouseX < 353 && mouseY > 146
+         if(mouseX > 339 && mouseX < 353 && mouseY < 146 && mouseY > 140 )
+{
+  println("you found waldo");
                 if (canPlaySounds) {
                     // Use the playDoh() method below. You can change the sound if you want 
                 }       
-                
+}
 }
 
 /*********************  This code is needed to play sounds. ********************
