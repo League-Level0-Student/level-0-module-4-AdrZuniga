@@ -25,7 +25,11 @@ System.out.print(min.charAt(i)); }
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
 for (int i = 0; i < min.length(); i++) {
-System.out.print((i));
+char currentletter = min.charAt(i);
+if(currentletter == '2') {
+	System.out.println(i);
+}
+
 }
 
 	}
